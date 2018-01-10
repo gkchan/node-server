@@ -6,6 +6,10 @@ app.get('/', function (req, res) {
     console.log("test1")
 })
 
+app.get('/test', function (req, res) {
+    res.send('test')
+})
+
 app.listen(5001)
 
 // app.listen(5001, () => console.log("test2"))
